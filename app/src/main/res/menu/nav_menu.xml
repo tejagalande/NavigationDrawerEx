@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/trend"
+            android:icon="@drawable/trend"
+            android:title="Trend"/>
+
+        <item android:id="@+id/subscript"
+            android:icon="@drawable/subscriptions"
+            android:title="Subscription"/>
+
+
+
+    </group>
+
+    <item
+        android:title="Others">
+
+        <menu>
+
+            <item android:id="@+id/inbox"
+                android:title="Indox"
+                android:icon="@drawable/mail"/>
+
+            <item android:id="@+id/library"
+                android:title="Library"
+                android:icon="@drawable/library"/>
+
+
+        </menu>
+    </item>
+</menu>
